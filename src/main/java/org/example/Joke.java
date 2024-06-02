@@ -5,14 +5,13 @@ public class Joke {
     private String setup;
     private String punchline;
 
-    // Constructor
+    //contructor, getters, setters, string
     public Joke(String type, String setup, String punchline) {
         this.type = type;
         this.setup = setup;
         this.punchline = punchline;
     }
 
-    // Getters
     public String getType() {
         return type;
     }
